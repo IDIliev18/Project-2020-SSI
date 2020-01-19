@@ -320,3 +320,9 @@ body {
       display: flex; 
     }
   }
+
+  .mySlides {
+    display:none;
+    width:100px;
+    height:100px;
+  }

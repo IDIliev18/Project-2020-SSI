@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" href="./CSS&JS/style.css">
-    <title>Water Energy</title>
+    <title>SSI</title>
     </head>
 <body style="background-color:#27ae60"> 
     <div class="introduction">
@@ -20,7 +20,7 @@
                 </svg>
             </div>
             <div class="nav-links">
-                <a href="#save">Energy from water</a>
+                <a href="#save">Saving water</a>
                 <a href="#info">Info</a>
                 <a href="#s">About us</a>
                 <a href="#s">Contact Us</a>
@@ -35,14 +35,42 @@
 
     <div class="water-energy" id="save">
         <div class="intro">
-            <h1>Energy from water</h1>
-            <p>We will teach you how to transform water into energy</p>
+            <h1>Water Saving</h1>
+            <p>We will teach you how to save water</p>
         </div>
-        <div class="gallery">
-            <div class="div">
-                <img src="./CSS&JS/img/8.jpg" alt="">
-            </div>
-        </div>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="w2.jpg">
+  <img class="mySlides" src="8.jpg" >
+  <img class="mySlides" src="1.jpg" >
+  <img class="mySlides" src="3.jpg" ">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
     </div>
 
     <div class="box-of-fields" id="info">
