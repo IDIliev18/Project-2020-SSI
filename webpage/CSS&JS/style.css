@@ -321,9 +321,9 @@ body {
     }
   }
 
-  .mySlides {
-    display:none;
-    width:100px;
-    height:100px;
-  }
- 
+  .mySlides
+  {
+width:700px;
+height:500px;
+padding-left: 27%;
+}
