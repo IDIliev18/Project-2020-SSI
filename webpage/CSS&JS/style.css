@@ -288,3 +288,11 @@ body {
     color: white;
     cursor: pointer;
 }
+
+.copyright{
+    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
