@@ -22,7 +22,7 @@ body {
     border: none;
     position: fixed;
     width: 100%;
-    min-height: 5vh;
+    min-height: 7vh;
 }
 
 .introduction nav {
@@ -33,8 +33,8 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    min-height: 8vh;
-    border-bottom: 1px solid white;
+    min-height: 7vh;
+    border-bottom: 1px solid whitesmoke;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -72,7 +72,7 @@ body {
 }
 
 .introduction nav .nav-links :hover {
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .introduction .headtext {
@@ -105,7 +105,9 @@ body {
 }
 
 .introduction .headtext button {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
     margin: 20px 0px;
     background: #27ae60;
     border: 2px solid #27ae60;
@@ -116,7 +118,8 @@ body {
 }
 
 .water-energy .intro {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
     min-height: 30vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -136,62 +139,6 @@ body {
 .water-energy .intro h1 {
     font-size: 25px;
     padding: 20px 0px;
-}
-
-.water-energy .gallery {
-    font-family: "Montserrat", sans-serif;
-    margin: 3em;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-    grid-gap: 2em;
-}
-
-.water-energy .gallery div {
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-}
-
-.water-energy .gallery div p {
-    opacity: 0;
-    color: white;
-    position: absolute;
-    top: 80%;
-    right: 50%;
-    -webkit-transform: translate(50%, -80%);
-    transform: translate(50%, -80%);
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
-
-.water-energy .gallery div:hover {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-}
-
-.water-energy .gallery div:hover p {
-    display: block;
-    opacity: 1;
-}
-
-.water-energy .gallery .reveal-img {
-    opacity: 1;
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-}
-
-.water-energy .gallery img {
-    position: relative;
-    z-index: -1;
-    display: block;
-    -webkit-transform: translate(0px, 100px);
-    transform: translate(0px, 100px);
-    -webkit-transition: all 1s;
-    transition: all 1s;
-    opacity: 0;
-    width: 100%;
-    height: 400px;
-    -o-object-fit: cover;
-    object-fit: cover;
 }
 
 .box-of-fields .fields-beggining {
@@ -225,9 +172,7 @@ body {
     grid-gap: 10em;
 }
 
-.box-of-fields .fields-text .field-1 p,
-.box-of-fields .fields-text .field-2 p,
-.box-of-fields .fields-text .field-3 p {
+.box-of-fields .fields-text .field-1 p, .field-2 p, .field-3 p {
     line-height: 150%;
     text-align: center;
 }
@@ -278,10 +223,7 @@ body {
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
     }
-    .introduction nav .scrl-animation {
-        opacity: 1;
-        width: 100%;
-    }
+
     .introduction .headtext h1 {
         font-size: 20px;
     }
@@ -299,21 +241,6 @@ body {
     .water-energy .intro p {
         padding: 10px 10px;
         text-align: center;
-    }
-    .water-energy .gallery {
-        margin: 0;
-        display: block;
-    }
-    .water-energy .gallery div:hover {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-    .water-energy .gallery div:hover p {
-        text-align: center;
-        line-height: 1.5em;
-    }
-    .water-energy .gallery img {
-        border-bottom: 2px solid black;
     }
     .box-of-fields {
         width: 80%;
@@ -346,19 +273,11 @@ body {
     width: 700px;
     height: 500px;
     padding-left: 27%;
+    display: -webkit-box;
+    display: -ms-flexbox;
 }
 
-.button1 {
-    font-family: "Montserrat", sans-serif;
-    margin: 20px 0px;
-    background: #3c6f2f;
-    border: 2px solid #3c6f2f;
-    padding: 10px 35px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-}
-
+.button1, 
 .button2 {
     font-family: "Montserrat", sans-serif;
     margin: 20px 0px;
