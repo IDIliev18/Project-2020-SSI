@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .button1,
+    .button2,
+    .button3 {
+      border-radius: 10px;
+      height: 40px;
+      width: 80px;
+      transition: all .6s ease-in-out;
+      display: inline;
+      color: black;
+      background-color: #4F6801;
+      border-color: #4F6801;
+    }
+
+    .button1:hover {
+      width: 200px;
+      letter-spacing: 10px;
+      font-size: 15px;
+    }
+
+    .button2:hover {
+      width: 200px;
+      letter-spacing: 10px;
+      font-size: 15px;
+    }
+
+    .button3:hover {
+      width: 200px;
+      letter-spacing: 10px;
+      font-size: 15px;
+    }
+    .back{
+    border-radius: 10px;
+      height: 40px;
+      width: 80px;
+      transition: all .6s ease-in-out;
+      display: inline;
+      color: black;
+      background-color: #4F6801;
+      border-color: #4F6801;
+    }
+
+    .back:hover{
+      width: 100px;
+      letter-spacing: 2px;
+    }
+
+
+  </style>
+</head>
+
+<body style="background-color:#27ae60"></body>
+
+<center>
+  <div class="info">
+    <button class="button1" onclick="button1()">Stoicho</button>
+    <button class="button2" onclick="button2()">Ilqn</button>
+    <button class="button3" onclick="button3()">Stoqn</button>
+  </div>
+</center>
+
+<center>
+  <p id="TextZaPisane" style="color:#211B00;"></p>
+</center>
+<script type="text/javascript">
+
+  var text = document.getElementById("TextZaPisane");
+
+  function button1() {
+    text.innerHTML = "Number: +359 88 944 9676. Email: SDDimitrov18@codingburgas.bg";
+  }
+  function button2() {
+    text.innerHTML = " Number: +359 87 660 3828. Email: IDIliev18@codingburgas.bg";
+  }
+  function button3() {
+    text.innerHTML = " Number: +359 88 273 7734. Email: SNKolev18@codingburgas.bg";
+  }
+</script>
+
+<a href="index.html" style ="text-decoration: none;"><button class="back">Go back</button></a>
+
+</body>
+
+</html>
