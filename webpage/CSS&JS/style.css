@@ -120,6 +120,7 @@ body {
 .water-energy .intro {
     font-family: 'Bangers', cursive;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color:black;
     min-height: 30vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
