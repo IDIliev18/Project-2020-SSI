@@ -1,0 +1,54 @@
+.button1,
+.button2,
+.button3 {
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    transition: all .6s ease-in-out;
+    color: black;
+    background-color: #4F6801;
+    border-color: #4F6801;
+}
+
+
+/*Other animation*/
+
+
+/*.button1:hover {
+    width: 100px;
+    letter-spacing: 5px;
+    font-size: 15px;
+} */
+
+.button1:hover {
+    width: 200px;
+    letter-spacing: 10px;
+    font-size: 15px;
+}
+
+.button2:hover {
+    width: 200px;
+    letter-spacing: 10px;
+    font-size: 15px;
+}
+
+.button3:hover {
+    width: 200px;
+    letter-spacing: 10px;
+    font-size: 15px;
+}
+
+.back {
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    transition: all .6s ease-in-out;
+    color: black;
+    background-color: #4F6801;
+    border-color: #4F6801;
+}
+
+.back:hover {
+    width: 100px;
+    letter-spacing: 2px;
+}
