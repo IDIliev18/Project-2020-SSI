@@ -51,4 +51,5 @@
 .back:hover {
     width: 130px;
     letter-spacing: 4px;
+    opacity: 0.8;
 }
