@@ -166,9 +166,12 @@ body {
     grid-gap: 10em;
 }
 
-.box-of-fields .fields-text .field-1 p, .field-2 p, .field-3 p {
+.box-of-fields .fields-text .field-1 p,
+.field-2 p,
+.field-3 p {
     line-height: 150%;
     text-align: center;
+    color: #058ceb;
 }
 
 @media screen and (max-width: 768px) {
@@ -268,7 +271,8 @@ body {
     display: -ms-flexbox;
 }
 
-.button1, .button2 {
+.button1,
+.button2 {
     font-family: "Montserrat", sans-serif;
     margin: 20px 0px;
     background: #058ceb;
@@ -284,5 +288,5 @@ body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: lighter;
-    color: white;
+    color: black;
 }
