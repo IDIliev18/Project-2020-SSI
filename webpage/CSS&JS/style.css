@@ -271,11 +271,11 @@ body {
 .button1, .button2 {
     font-family: "Montserrat", sans-serif;
     margin: 20px 0px;
-    background: #3c6f2f;
+    background: #058ceb;
     border: 2px solid #3c6f2f;
     padding: 10px 35px;
     font-weight: bold;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
