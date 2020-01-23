@@ -11,7 +11,7 @@ body {
     max-width: 100%;
     font-family: "Montserrat", sans-serif;
     min-height: 100vh;
-    background-image: url("./../CSS&JS/img/w2.jpg"), -webkit-gradient(linear, left top, left bottom, from(#1E2D2F), to(#1E2D2F));
+    background-image: url("./../CSS&JS/img/w2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
@@ -42,19 +42,12 @@ body {
 }
 
 .introduction nav #logo {
-    padding: 0px 20px;
-    flex-basis: 50%;
+    padding: 0px 25px;
+    flex-basis: 55%;
     font-family: 'Courgette', cursive;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-}
-
-.introduction nav #logo .wat-ene {
-    stroke: white;
-    stroke-width: 1;
-    stroke-miterlimit: 10;
-    fill: white;
 }
 
 .introduction nav .nav-links {
@@ -63,7 +56,7 @@ body {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    flex-basis: 50%;
+    flex-basis: 55%;
 }
 
 .introduction nav .nav-links a {
@@ -120,7 +113,7 @@ body {
 .water-energy .intro {
     font-family: 'Bangers', cursive;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    color:black;
+    color: black;
     min-height: 30vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -161,7 +154,7 @@ body {
 }
 
 .box-of-fields .fields-beggining h1 {
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px 0px;
 }
 
@@ -214,8 +207,6 @@ body {
         -ms-flex-direction: column;
         flex-direction: column;
         position: absolute;
-        right: 0;
-        top: 0;
         background-color: #27ae60;
         min-height: 30vh;
         width: 100%;
@@ -224,7 +215,6 @@ body {
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
     }
-
     .introduction .headtext h1 {
         font-size: 20px;
     }
@@ -244,7 +234,7 @@ body {
         text-align: center;
     }
     .box-of-fields {
-        width: 80%;
+        width: 60%;
         margin: auto;
         max-height: 100vh;
     }
@@ -263,7 +253,7 @@ body {
         -ms-flex-direction: column;
         flex-direction: column;
         -ms-flex-pack: distribute;
-        justify-content: space-around;
+        justify-content: center;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -278,8 +268,7 @@ body {
     display: -ms-flexbox;
 }
 
-.button1, 
-.button2 {
+.button1, .button2 {
     font-family: "Montserrat", sans-serif;
     margin: 20px 0px;
     background: #3c6f2f;
@@ -290,7 +279,7 @@ body {
     cursor: pointer;
 }
 
-.copyright{
+.copyright {
     font-family: 'Bangers', cursive;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-family: 'Noto Sans TC', sans-serif;
