@@ -166,9 +166,7 @@ body {
     grid-gap: 10em;
 }
 
-.box-of-fields .fields-text .field-1 p,
-.field-2 p,
-.field-3 p {
+.box-of-fields .fields-text .field-1 p, .field-2 p, .field-3 p {
     line-height: 150%;
     text-align: center;
     color: #058ceb;
@@ -271,12 +269,11 @@ body {
     display: -ms-flexbox;
 }
 
-.button1,
-.button2 {
+.button1, .button2 {
     font-family: "Montserrat", sans-serif;
     margin: 20px 0px;
     background: #058ceb;
-    border: 2px solid #3c6f2f;
+    border: 2px solid #058ceb;
     padding: 10px 35px;
     font-weight: bold;
     color: black;
