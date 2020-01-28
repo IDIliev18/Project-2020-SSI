@@ -1,289 +1,293 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-.introduction {
-    max-width: 100%;
-    font-family: "Montserrat", sans-serif;
-    min-height: 100vh;
-    background-image: url("./../CSS&JS/img/w2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: screen;
-}
-
-.introduction .nav-animation {
-    background-color: #058ceb;
-    border: none;
-    position: fixed;
-    width: 100%;
-    min-height: 7vh;
-}
-
-.introduction nav {
-    width: 100%;
-    z-index: 10;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 7vh;
-    border-bottom: 1px solid whitesmoke;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: white;
-}
-
-.introduction nav #logo {
-    padding: 0px 25px;
-    flex-basis: 55%;
-    font-family: 'Courgette', cursive;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.introduction nav .nav-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    flex-basis: 55%;
-}
-
-.introduction nav .nav-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.introduction nav .nav-links :hover {
-    opacity: 0.3;
-}
-
-.introduction .headtext {
-    color: white;
-    min-height: 80vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.introduction .headtext h1 {
-    margin: 20px 0px;
-    font-weight: 100;
-    font-size: 25px;
-}
-
-.introduction .headtext p {
-    font-size: 16px;
-    margin: 20px 0px;
-}
-
-.introduction .headtext button {
-    font-family: 'Bangers', cursive;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-family: 'Noto Sans TC', sans-serif;
-    margin: 20px 0px;
-    background: #27ae60;
-    border: 2px solid #27ae60;
-    padding: 10px 35px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-}
-
-.water-energy .intro {
-    font-family: 'Bangers', cursive;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    color: black;
-    min-height: 30vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.water-energy .intro h1 {
-    font-size: 25px;
-    padding: 20px 0px;
-}
-
-.box-of-fields .fields-beggining {
-    font-family: "Montserrat", sans-serif;
-    min-height: 30vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.box-of-fields .fields-beggining h1 {
-    font-size: 20px;
-    margin: 20px 0px;
-}
-
-.box-of-fields .fields-text {
-    font-family: "Montserrat", sans-serif;
-    margin: 8em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 10em;
-}
-
-.box-of-fields .fields-text .field-1 p, .field-2 p, .field-3 p {
-    line-height: 150%;
-    text-align: center;
-    color: #058ceb;
-}
-
-@media screen and (max-width: 768px) {
-    .introduction nav {
-        height: 70px;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    * {
+        padding: 0;
+        margin: 0;
     }
-    .introduction nav .nav-animation {
-        background-color: #27ae60;
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .introduction {
+        max-width: 100%;
+        font-family: "Montserrat", sans-serif;
+        min-height: 100vh;
+        background-image: url("./../CSS&JS/img/w2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: screen;
+    }
+    
+    .introduction .nav-animation {
+        background-color: #058ceb;
         border: none;
         position: fixed;
         width: 100%;
+        min-height: 7vh;
     }
-    .introduction nav #logo {
+    
+    .introduction nav {
+        width: 100%;
+        z-index: 10;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        min-height: 7vh;
+        border-bottom: 1px solid whitesmoke;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        height: inherit;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        position: relative;
+        color: white;
     }
+    
+    .introduction nav #logo {
+        padding: 0px 25px;
+        flex-basis: 55%;
+        font-family: 'Courgette', cursive;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
     .introduction nav .nav-links {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        position: absolute;
-        background-color: #27ae60;
-        min-height: 30vh;
-        width: 100%;
-        text-align: center;
-        opacity: 0;
-        -webkit-transition: all 0.5s;
-        transition: all 0.5s;
-    }
-    .introduction .headtext h1 {
-        font-size: 20px;
-    }
-    .introduction .headtext p {
-        padding: 0px 10px;
-        text-align: center;
-        line-height: 1.6em;
-    }
-    .water-energy .intro {
-        min-height: 40vh;
-    }
-    .water-energy .intro h1 {
-        font-size: 20px;
-    }
-    .water-energy .intro p {
-        padding: 10px 10px;
-        text-align: center;
-    }
-    .box-of-fields {
-        width: 60%;
-        margin: auto;
-        max-height: 100vh;
-    }
-    .box-of-fields .fields-beggining h1 {
-        font-size: 20px;
-    }
-    .box-of-fields .fields-beggining p {
-        padding: 10px 10px;
-        text-align: center;
-    }
-    .box-of-fields .fields-text {
-        margin: 0;
-        height: 70vh;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
         -ms-flex-pack: distribute;
-        justify-content: center;
+        justify-content: space-around;
+        flex-basis: 55%;
+    }
+    
+    .introduction nav .nav-links a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .introduction nav .nav-links :hover {
+        opacity: 0.3;
+    }
+    
+    .introduction .headtext {
+        color: white;
+        min-height: 80vh;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
-}
-
-.mySlides {
-    width: 700px;
-    height: 500px;
-    padding-left: 27%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-}
-
-.button1, .button2 {
-    font-family: "Montserrat", sans-serif;
-    margin: 20px 0px;
-    background: #058ceb;
-    border: 2px solid #058ceb;
-    padding: 10px 35px;
-    font-weight: bold;
-    color: black;
-    cursor: pointer;
-}
-
-.copyright {
-    font-family: 'Bangers', cursive;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-weight: lighter;
-    color: black;
-}
+    
+    .introduction .headtext h1 {
+        margin: 20px 0px;
+        font-weight: 100;
+        font-size: 25px;
+    }
+    
+    .introduction .headtext p {
+        font-size: 16px;
+        margin: 20px 0px;
+    }
+    
+    .introduction .headtext button {
+        font-family: 'Bangers', cursive;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        font-family: 'Noto Sans TC', sans-serif;
+        margin: 20px 0px;
+        background: #27ae60;
+        border: 2px solid #27ae60;
+        padding: 10px 35px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .water-energy .intro {
+        font-family: 'Bangers', cursive;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        color: black;
+        min-height: 30vh;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .water-energy .intro h1 {
+        font-size: 25px;
+        padding: 20px 0px;
+    }
+    
+    .box-of-fields .fields-beggining {
+        font-family: "Montserrat", sans-serif;
+        min-height: 30vh;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .box-of-fields .fields-beggining h1 {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+    
+    .box-of-fields .fields-text {
+        font-family: "Montserrat", sans-serif;
+        margin: 8em;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 10em;
+    }
+    
+    .box-of-fields .fields-text .field-1 p,
+    .field-2 p,
+    .field-3 p {
+        line-height: 150%;
+        text-align: center;
+        color: #058ceb;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .introduction nav {
+            height: 70px;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        .introduction nav .nav-animation {
+            background-color: #27ae60;
+            border: none;
+            position: fixed;
+            width: 100%;
+        }
+        .introduction nav #logo {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            height: inherit;
+            -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+            position: relative;
+        }
+        .introduction nav .nav-links {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            position: absolute;
+            background-color: #27ae60;
+            min-height: 30vh;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+        .introduction .headtext h1 {
+            font-size: 20px;
+        }
+        .introduction .headtext p {
+            padding: 0px 10px;
+            text-align: center;
+            line-height: 1.6em;
+        }
+        .water-energy .intro {
+            min-height: 40vh;
+        }
+        .water-energy .intro h1 {
+            font-size: 20px;
+        }
+        .water-energy .intro p {
+            padding: 10px 10px;
+            text-align: center;
+        }
+        .box-of-fields {
+            width: 60%;
+            margin: auto;
+            max-height: 100vh;
+        }
+        .box-of-fields .fields-beggining h1 {
+            font-size: 20px;
+        }
+        .box-of-fields .fields-beggining p {
+            padding: 10px 10px;
+            text-align: center;
+        }
+        .box-of-fields .fields-text {
+            margin: 0;
+            height: 70vh;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -ms-flex-pack: distribute;
+            justify-content: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+    }
+    
+    .mySlides {
+        width: 700px;
+        height: 500px;
+        padding-left: 27%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+    }
+    
+    .button1,
+    .button2 {
+        font-family: "Montserrat", sans-serif;
+        margin: 20px 0px;
+        background: #058ceb;
+        border: 2px solid #058ceb;
+        padding: 10px 35px;
+        font-weight: bold;
+        color: black;
+        cursor: pointer;
+        border-radius: 10%;
+    }
+    
+    .copyright {
+        font-family: 'Bangers', cursive;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: lighter;
+        color: black;
+    }

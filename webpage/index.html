@@ -51,6 +51,8 @@
         <img class="mySlides" src="CSS&JS\img\sl-5.jpg">
         <img class="mySlides" src="CSS&JS\img\sl-6.jpg">
 
+
+
         <center><button class="button1" onclick="plusDivs(-1)">&#10094;</button>
             <button class="button2" onclick="plusDivs(1)">&#10095;</button></center>
 
@@ -78,6 +80,22 @@
                     x[i].style.display = "none";
                 }
                 x[slideIndex - 1].style.display = "block";
+            }
+            var slideIndex = 0;
+            slide();
+
+            function slide() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {
+                    slideIndex = 1
+                }
+                x[slideIndex - 1].style.display = "block";
+                setTimeout(slide, 3000);
             }
         </script>
 
