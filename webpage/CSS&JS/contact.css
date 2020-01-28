@@ -1,18 +1,14 @@
-.button1,
-.button2,
-.button3 {
+.button1, .button2, .button3 {
     border-radius: 10px;
     height: 40px;
     width: 80px;
     transition: all .6s ease-in-out;
     color: black;
-    background-color: #4F6801;
-    border-color: #4F6801;
+    background-color: #058ceb;
+    border-color: #058ceb;
 }
 
-
 /*Other animation*/
-
 
 /*.button1:hover {
     width: 100px;
@@ -44,8 +40,10 @@
     width: 80px;
     transition: all .6s ease-in-out;
     color: black;
-    background-color: #4F6801;
-    border-color: #4F6801;
+    background-color: #058ceb;
+    border-color: #058ceb;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
 }
 
 .back:hover {

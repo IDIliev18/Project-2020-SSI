@@ -7,32 +7,32 @@
 </head>
 </head>
 
-<body style="background-color:#27ae60">
+<body style="background-color:whitesmoke">
 
     <center>
         <div class="info">
-            <button class="button1" onclick="button1()">Stoicho</button>
-            <button class="button2" onclick="button2()">Iliyan</button>
-            <button class="button3" onclick="button3()">Stoyan</button>
+            <button class="button1" onclick="button1()">Iliyan</button>
+            <button class="button2" onclick="button2()">Stoyan</button>
+            <button class="button3" onclick="button3()">Stoicho</button>
         </div>
     </center>
 
     <center>
-        <p id="textWriting" style="color:#211B00;"></p>
+        <p id="imgshow" style="color:#211B00;"></p>
     </center>
     <script type="text/javascript">
-        var text = document.getElementById("textWriting");
+        var text = document.getElementById("imgshow");
 
         function button1() {
-            text.innerHTML = "Number: +359 88 944 9676, E-mail: SDDimitrov18@codingburgas.bg";
+            text.innerHTML = '<img src="CSS&JS/img/idi.png">';
         }
 
         function button2() {
-            text.innerHTML = " Number: +359 87 660 3828, E-mail: IDIliev18@codingburgas.bg";
+            text.innerHTML = '<img src="CSS&JS/img/az.png">';
         }
 
         function button3() {
-            text.innerHTML = " Number: +359 88 273 7734, E-mail: SNKolev18@codingburgas.bg";
+            text.innerHTML = '<img src="CSS&JS/img/st.png">';
         }
     </script>
 
