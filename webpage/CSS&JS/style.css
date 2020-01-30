@@ -2,11 +2,11 @@
         padding: 0;
         margin: 0;
     }
-    
+
     body {
         overflow-x: hidden;
     }
-    
+
     .introduction {
         max-width: 100%;
         font-family: "Montserrat", sans-serif;
@@ -16,7 +16,7 @@
         background-size: cover;
         background-blend-mode: screen;
     }
-    
+
     .introduction .nav-animation {
         background-color: #058ceb;
         border: none;
@@ -24,7 +24,7 @@
         width: 100%;
         min-height: 7vh;
     }
-    
+
     .introduction nav {
         width: 100%;
         z-index: 10;
@@ -40,7 +40,7 @@
         align-items: center;
         color: white;
     }
-    
+
     .introduction nav #logo {
         padding: 0px 25px;
         flex-basis: 55%;
@@ -49,7 +49,7 @@
         display: -ms-flexbox;
         display: flex;
     }
-    
+
     .introduction nav .nav-links {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -58,16 +58,16 @@
         justify-content: space-around;
         flex-basis: 55%;
     }
-    
+
     .introduction nav .nav-links a {
         color: white;
         text-decoration: none;
     }
-    
+
     .introduction nav .nav-links :hover {
         opacity: 0.3;
     }
-    
+
     .introduction .headtext {
         color: white;
         min-height: 80vh;
@@ -85,31 +85,31 @@
         -ms-flex-align: center;
         align-items: center;
     }
-    
+
     .introduction .headtext h1 {
         margin: 20px 0px;
         font-weight: 100;
         font-size: 25px;
     }
-    
+
     .introduction .headtext p {
         font-size: 16px;
         margin: 20px 0px;
     }
-    
+
     .introduction .headtext button {
         font-family: 'Bangers', cursive;
         font-family: 'ZCOOL QingKe HuangYou', cursive;
         font-family: 'Noto Sans TC', sans-serif;
         margin: 20px 0px;
-        background: #27ae60;
-        border: 2px solid #27ae60;
+        background: #058ceb;
+        border: 2px solid #058ceb;
         padding: 10px 35px;
         font-weight: bold;
         color: white;
         cursor: pointer;
     }
-    
+
     .water-energy .intro {
         font-family: 'Bangers', cursive;
         font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -129,12 +129,12 @@
         -ms-flex-align: center;
         align-items: center;
     }
-    
+
     .water-energy .intro h1 {
         font-size: 25px;
         padding: 20px 0px;
     }
-    
+
     .box-of-fields .fields-beggining {
         font-family: "Montserrat", sans-serif;
         min-height: 20vh;
@@ -152,12 +152,12 @@
         -ms-flex-align: center;
         align-items: center;
     }
-    
+
     .box-of-fields .fields-beggining h1 {
         font-size: 20px;
         margin: 20px 0px;
     }
-    
+
     .box-of-fields .fields-text {
         font-family: "Montserrat", sans-serif;
         margin: 5em;
@@ -165,15 +165,13 @@
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-gap: 12em;
     }
-    
-    .box-of-fields .fields-text .field-1 p,
-    .field-2 p,
-    .field-3 p {
+
+    .box-of-fields .fields-text .field-1 p, .field-2 p, .field-3 p {
         line-height: 150%;
         text-align: center;
         color: #058ceb;
     }
-    
+
     @media screen and (max-width: 768px) {
         .introduction nav {
             height: 70px;
@@ -262,7 +260,7 @@
             display: flex;
         }
     }
-    
+
     .mySlides {
         width: 700px;
         height: 500px;
@@ -270,9 +268,8 @@
         display: -webkit-box;
         display: -ms-flexbox;
     }
-    
-    .button1,
-    .button2 {
+
+    .button1, .button2 {
         font-family: "Montserrat", sans-serif;
         margin: 20px 0px;
         background: #058ceb;
@@ -283,7 +280,7 @@
         cursor: pointer;
         border-radius: 10%;
     }
-    
+
     .copyright {
         font-family: 'Bangers', cursive;
         font-family: 'ZCOOL QingKe HuangYou', cursive;
