@@ -4,17 +4,20 @@
     font-family: sans-serif;
 }
 
-body{
+body {
     background-color: whitesmoke;
 }
 
 .our-team {
+    font-family: "Montserrat", sans-serif;
     overflow: hidden;
     text-align: center;
     padding: 60px;
 }
 
 .our-team h1 {
+    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
     text-transform: uppercase;
     margin-bottom: 60px;
     color: black;
@@ -22,11 +25,13 @@ body{
 }
 
 .distance {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: block;
     margin: auto;
-    margin-bottom: 36px;
+    margin-bottom: 10px;
     width: 140px;
-    height: 2px;
+    height: 3px;
     background-color: #058ceb;
 }
 
@@ -45,7 +50,8 @@ body{
 
 .photos a img {
     width: 100%;
-    transition: all 0.4;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .each {
@@ -75,17 +81,20 @@ body{
     margin: auto;
     margin-bottom: 36px;
     width: auto;
-    height: 2px;
+    height: 3px;
     background-color: #058ceb;
 }
 
 .our-mission {
+    font-family: "Montserrat", sans-serif;
     overflow: hidden;
     text-align: center;
     padding: 60px;
 }
 
 .our-mission h1 {
+    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
     text-transform: uppercase;
     margin-bottom: 60px;
     color: black;
@@ -108,7 +117,10 @@ button {
     background: #058ceb;
     border: 2px solid #34495e;
     padding: 10px 35px;
-    font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+#ct, #ct2, #ct3 {
+    text-align: start;
 }
