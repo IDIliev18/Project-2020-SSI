@@ -1,3 +1,6 @@
+    /* Webkit...  is an html and css rendering browser engine for Google Chrome and Safari. The prefix of it is -webkit
+    The browser engine Gecko and Trident and its prefix for IE and Microsoft Edge is -ms */
+
     * {
         padding: 0;
         margin: 0;
