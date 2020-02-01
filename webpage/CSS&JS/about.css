@@ -4,17 +4,20 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 .our-team {
     overflow: hidden;
     text-align: center;
-    background-color: #34495e;
     padding: 60px;
 }
 
 .our-team h1 {
     text-transform: uppercase;
     margin-bottom: 60px;
-    color: white;
+    color: black;
     font-size: 40px;
 }
 
@@ -46,7 +49,7 @@
 }
 
 .each {
-    color: whitesmoke;
+    color: black;
     width: 600px;
     height: 0;
     margin: auto;
@@ -79,19 +82,18 @@
 .our-mission {
     overflow: hidden;
     text-align: center;
-    background-color: #34495e;
     padding: 60px;
 }
 
 .our-mission h1 {
     text-transform: uppercase;
     margin-bottom: 60px;
-    color: white;
+    color: black;
     font-size: 40px;
 }
 
 .ms {
-    color: whitesmoke;
+    color: black;
     width: 600px;
     margin: auto;
     font-size: 20px;
