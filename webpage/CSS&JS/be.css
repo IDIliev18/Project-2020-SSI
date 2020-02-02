@@ -7,7 +7,7 @@
         max-width: 100%;
         font-family: "Montserrat", sans-serif;
         min-height: 100vh;
-        background-image: url("./../CSS&JS/img/bt-ocean.jpg");
+        background-image: url("./../CSS&JS/img/w2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: screen;
@@ -80,7 +80,7 @@
     }
 
     .introduction .heading p {
-        color: #07D9D9;
+        color: whitesmoke;
         font-size: 16px;
         margin: 30px 20px;
         text-align: justify;
