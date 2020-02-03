@@ -1,4 +1,3 @@
-var scrlLines = document.querySelector('.scrl');
 var navBar = document.querySelector('nav');
 
 if (window.outerWidth > 800) {
@@ -8,6 +7,5 @@ if (window.outerWidth > 800) {
         } else {
             navBar.classList.remove('nav-animation');
         }
-
     });
 }
