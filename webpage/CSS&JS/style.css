@@ -50,7 +50,7 @@
         flex-basis: 50%;
         display: -webkit-box;
         display: -ms-flexbox;
-        display:flex;
+        display: flex;
     }
 
     .introduction nav .nav-links {
@@ -176,11 +176,11 @@
         text-align: center;
         color: #058ceb;
     }
-    
+
     .mySlides {
         width: 700px;
         height: 500px;
-        padding-left: 27%;
+        margin: auto;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
